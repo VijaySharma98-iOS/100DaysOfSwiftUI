@@ -20,7 +20,7 @@ struct ContentView: View {
         let peopleCount = Double(numberOfPeople + 2)
         let tipSelection = Double(tipPercentage)
         
-        let tipValue = checkAmount /; 100 * tipSelection
+        let tipValue = checkAmount / 100 * tipSelection
         let grandTotal = checkAmount + tipValue
         let amountPerPerson = grandTotal / peopleCount
         
